@@ -12,11 +12,14 @@ printf("it is not leap year");
  	scanf("%d",&A);
  	printf("mark of B");
  	scanf("%d",&B);
-	if((A>=55 && B>=45 )|| (B>=55 && A>=45) )
+	if((A>=55 && B>=45 )|| (B>=55 && A>=45) ){
 	printf("PASSED");
-	else if(B<45 && A>65)
+	}
+	else if(B<45 && A>65){
 	printf("student is allow to reappear in B");
-	else 
+	}
+	else {
 	printf("FAILED");
+	}
   return 1;
 }
